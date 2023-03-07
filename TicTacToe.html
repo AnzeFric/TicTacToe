@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./TicTacToe.css">
+</head>
+
+<body>
+    <main>
+        <div>
+            <p id="winner"></p>
+        </div>
+        <div class="center">
+            <table>
+                <tr>
+                    <td id="1" onclick="getID('1'); this.onclick=null;"></td>
+                    <td id="2" onclick="getID('2'); this.onclick=null;"></td>
+                    <td id="3" onclick="getID('3'); this.onclick=null;"></td>
+                </tr>
+                <tr>
+                    <td id="4" onclick="getID('4'); this.onclick=null;"></td>
+                    <td id="5" onclick="getID('5'); this.onclick=null;"></td>
+                    <td id="6" onclick="getID('6'); this.onclick=null;"></td>
+                </tr>
+                <tr>
+                    <td id="7" onclick="getID('7'); this.onclick=null;"></td>
+                    <td id="8" onclick="getID('8'); this.onclick=null;"></td>
+                    <td id="9" onclick="getID('9'); this.onclick=null;"></td>
+                </tr>
+            </table>
+        </div>
+        <button class="button" onclick="restartGame()">
+            RESTART
+        </button>
+
+        <a href="https://www.flaticon.com/free-icons/close" style="margin-top: 100px; position: absolute;">Close icons
+            created by Pixel perfect</a>
+        <a href="https://www.flaticon.com/free-icons/zero" style="margin-top: 120px; position: absolute;">Zero icons
+            created by Freepik</a>
+    </main>
+    <script src="TicTacToe.js"></script>
+</body>
+
+</html>
